@@ -18,8 +18,63 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="card mx-auto mt-5 text-bg-light" style="width: 18rem">
+  <body style="margin: 10px">
+    <!-- Nav Tabs -->
+
+    <ul class="nav nav-pills">
+      <a href="index.html" class="text-decoration-none">
+        <li class="nav-item me-2">
+          <button
+            class="nav-link active"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            href="index.html"
+          >
+            Home
+          </button>
+        </li>
+      </a>
+
+      <li class="nav-item dropdown me-2">
+        <button
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-profile"
+          type="button"
+          role="tab"
+          aria-controls="pills-profile"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="john.html">John Abraham</a></li>
+          <li><a class="dropdown-item" href="jeff.html">Jeff Bezos</a></li>
+          <li><a class="dropdown-item" href="bill.html">Bill Gates</a></li>
+          <li><a class="dropdown-item" href="mukesh.html">Mukesh Ambani</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item me-2">
+        <button
+          class="nav-link"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-disabled"
+          type="button"
+          role="tab"
+          aria-controls="pills-disabled"
+          aria-selected="false"
+          disabled
+        >
+          Logout
+        </button>
+      </li>
+    </ul>
+    <div class="card mx-auto mt-2 text-bg-light" style="width: 18rem">
       <img
         src="https://newslivetv.com/wp-content/uploads/2020/12/John-Abraham-celebrates-his-48th-birthday-list-of-top-films.jpg"
         class="card-img-top"
