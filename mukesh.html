@@ -17,28 +17,20 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .nav {
+        --bs-nav-link-padding-x: 0.8rem;
+      }
+    </style>
   </head>
   <body style="margin: 10px">
     <!-- Nav Tabs -->
 
     <ul class="nav nav-pills">
-      <a href="index.html" class="text-decoration-none">
-        <li class="nav-item me-2">
-          <button
-            class="nav-link active"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-home"
-            type="button"
-            role="tab"
-            aria-controls="pills-home"
-            aria-selected="true"
-            href="index.html"
-          >
-            Home
-          </button>
-        </li>
-      </a>
-      <li class="nav-item dropdown me-2">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item dropdown">
         <button
           class="nav-link dropdown-toggle"
           data-bs-toggle="pill"
@@ -58,7 +50,7 @@
         </ul>
       </li>
 
-      <li class="nav-item me-2">
+      <li class="nav-item">
         <button
           class="nav-link"
           data-bs-toggle="pill"
@@ -71,6 +63,9 @@
         >
           Logout
         </button>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactUs.html">Contact Us</a>
       </li>
     </ul>
     <div class="card mx-auto mt-2 text-bg-light" style="width: 18rem">

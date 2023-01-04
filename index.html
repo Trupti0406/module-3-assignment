@@ -16,6 +16,9 @@
             .card-img-top{
                 height: 12rem;
             }
+            .nav {
+                --bs-nav-link-padding-x: 0.8rem;
+            }
         </style>
 </head>
 
@@ -23,11 +26,11 @@
     <!-- Nav Tabs -->
 
     <ul class="nav nav-pills">
-        <li class="nav-item me-2"  >
+        <li class="nav-item"  >
             <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-home"
                 type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
         </li>
-        <li class="nav-item dropdown me-2">
+        <li class="nav-item dropdown">
             <button class="nav-link dropdown-toggle" data-bs-toggle="pill"
                 data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
                 aria-selected="false">Profile</button>
@@ -39,9 +42,12 @@
             </ul>
         </li>
 
-        <li class="nav-item me-2">
+        <li class="nav-item">
             <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-disabled"
                 type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Logout</button>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
         </li>
     </ul>
     <h1>Welcome to Home Screen</h1>
